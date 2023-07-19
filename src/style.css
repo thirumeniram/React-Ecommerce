@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+:root {
+  --nav: #008080;
+  --fontStyle: "Bebas Neue", cursive;
+}
+/* 'Teko', sans-serif */
+@media only screen and (max-width: 424px) {
+  #card-image {
+    width: 11rem;
+  }
+  :root {
+    font-size: 11px;
+  }
+}
+body {
+  background-color: #d6d6d7;
+}
+@media only screen and (max-width: 992px) {
+  #detailAddedImage {
+    width: 100%;
+  }
+}
+/* @media (max-width: 576px) {
+  .bg-white {
+    display: none;
+  }
+} */
+
+.user {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 40px;
+  right: 5px;
+}
+
+.cart {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 40px;
+  right: 330%;
+}
+
+.Container {
+  display: flex;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #131a21;
+  color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  transition: background-color 0.2s ease-in-out;
+  position: relative;
+  right: 2rem;
+}
+
+.rating {
+  position: relative;
+  top: -6px;
+}
+
+.nav-item {
+  position: absolute;
+  font-weight: bold;
+  right: 300px;
+  top: 25px;
+}
